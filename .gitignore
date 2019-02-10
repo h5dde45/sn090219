@@ -19,7 +19,6 @@
 *.ipr
 mvnw
 mvnw.cmd
-application.properties
 
 ### NetBeans ###
 /nbproject/private/

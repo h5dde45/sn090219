@@ -57,7 +57,7 @@ Vue.component('message-form', {
 Vue.component('message-row', {
     props: ['message', 'messages', 'editMethod'],
     template: `<div >
-    <i>{{message.id}}. </i>{{message.text}}
+    <i>{{message.id}}. </i>{{message.text}} 
     <span style="position: absolute; right: 0">
     <input type="button" value="Edit" @click="edit"/>
     <input type="button" value="Delete" @click="del"/>

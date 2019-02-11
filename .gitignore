@@ -12,6 +12,7 @@
 
 
 ### IntelliJ IDEA ###
+src/main/resources/application.properties
 .idea
 .mvn
 *.iws

@@ -19,7 +19,6 @@ public class MessageController {
         this.messageRepo = messageRepo;
     }
 
-
     @GetMapping
     @JsonView(Views.IdName.class)
     public List<Message> list() {
